@@ -32,7 +32,7 @@
           </div>
         </div>
         <div id="title" class="row">
-          <h1 class="offset-2 col-8">Intergrated</h1>
+          <h1 class="offset-2 col-8">Integrated</h1>
           <h2 class="offset-2 col-8">Marketing Services</h2>
           <p class="mt-5 offset-2 col-8 topPage-p">
             We turn your marketing plans into action by building on <br />
@@ -124,12 +124,25 @@
     </div>
     <!-- end of footer -->
 
-    <!-- JavaScript Bundle with Popper -->
+    <!-- JavaScript -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      document
+        .getElementById("contactUs-btn")
+        .addEventListener("click", displayDate);
+      document
+        .getElementById("contact-btn")
+        .addEventListener("click", displayDate);
+
+      function displayDate() {
+        window.open("https://ebq.com/contact-us/", "_blank");
+      }
+    </script>
   </body>
 </html>
