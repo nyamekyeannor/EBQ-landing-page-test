@@ -54,6 +54,7 @@ h2 {
 /* start of middle section */
 h3 {
   font-size: 40px;
+  margin-bottom: 40px;
 }
 
 #tools-img {
@@ -66,6 +67,9 @@ h3 {
 #middle p {
   line-height: 33px;
   font-size: 28px;
+}
+.second-p {
+  padding-top: 30px;
 }
 #team-img {
   width: 100%;
@@ -96,3 +100,63 @@ h3 {
   background-color: #0a459e;
 }
 /* end of footer */
+
+/* start of media queries */
+
+@media screen and (max-width: 991px) {
+  #title {
+    text-align: center;
+  }
+  .first {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .firstP {
+    padding-top: 90px;
+  }
+
+  .firstP h3 {
+    font-size: 80px;
+    text-align: center;
+  }
+
+  .firstP p {
+    font-size: 40px !important;
+    line-height: 50px !important;
+    text-align: center;
+  }
+
+  .first-p {
+    font-size: 40px !important;
+    line-height: 50px !important;
+    text-align: center;
+  }
+
+  .second-p {
+    font-size: 40px !important;
+    line-height: 50px !important;
+    text-align: center;
+  }
+
+  #tools-img {
+    margin-right: 11%;
+    width: 100%;
+  }
+
+  .second {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  #team-img {
+    padding-top: 90px;
+  }
+
+  .marketing-p {
+    font-size: 80px;
+    text-align: center;
+  }
+  .pt-5 {
+    font-size: 80px !important;
+    text-align: center;
+  }
+}
